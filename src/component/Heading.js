@@ -7,6 +7,13 @@ export const Heading = () => {
     <Navbar color="dark" dark>
       <container>
         <NavbarBrand href="/">My Team </NavbarBrand>
+        <Nav>
+          <NavItem>
+            <Link to="/add" className="btn btn-warning">
+              Add-User
+            </Link>
+          </NavItem>
+        </Nav>
       </container>
     </Navbar>
   );

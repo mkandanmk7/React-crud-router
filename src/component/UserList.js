@@ -1,9 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { ListGroup, ListGroupItem, Button } from "reactstrap";
 
 export const UserList = () => {
   return (
-    <div>
-      <h1>UserList</h1>
-    </div>
+    <ListGroup>
+      <ListGroupItem>UserOne</ListGroupItem>
+      <div className="ml-auto"></div>
+    </ListGroup>
   );
 };
