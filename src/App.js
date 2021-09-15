@@ -8,9 +8,9 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Home />
-          <AddUser />
-          <EditUser />
+          <Route exact path="/" component={Home} />
+          <Route path="/adduser" component={AddUser} />
+          <Route Path="/edituser" component={EditUser} />
         </Switch>
       </Router>
     </div>
