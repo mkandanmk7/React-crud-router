@@ -3,9 +3,11 @@ import { AddUser } from "./component/AddUser";
 import { EditUser } from "./component/EditUser";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
+import "bootstrap/dist/css/bootstrap.min.css";
+
 function App() {
   return (
-    <div className="App">
+    <div style={{ maxWidth: "30rem", margin: "4rem auto" }}>
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />
